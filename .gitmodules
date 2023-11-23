@@ -19,9 +19,6 @@
 [submodule "brain-adam"]
 	path = brain-adam
 	url = git@github.com:discommand2/brain-adam.git
-[submodule "brain-template"]
-	path = brain-template
-	url = git@github.com:discommand2/brain-template.git
 [submodule "brain-lily"]
 	path = brain-lily
 	url = git@github.com:discommand2/brain-lily.git
@@ -76,3 +73,6 @@
 [submodule "provider-template"]
 	path = provider-template
 	url = git@github.com:discommand2/provider-template.git
+[submodule "brain-template"]
+	path = brain-template
+	url = git@github.com:discommand2/brain-template.git
