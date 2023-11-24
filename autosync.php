@@ -9,6 +9,8 @@ function executeCommand($command) {
 }
 
 $commands = [
+    "git submodule foreach --recursive git fetch upstream",
+    "git submodule foreach --recursive git merge upstream/main",
     "git submodule foreach --recursive git add -A",
     "git submodule foreach --recursive 'git diff --cached --exit-code || git commit -m AutoSync'",
     "git submodule foreach --recursive git push",
