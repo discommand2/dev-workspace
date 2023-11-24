@@ -1,0 +1,81 @@
+[submodule "dev-workspace"]
+	path = dev-workspace
+	url = git@github.com:discommand2/dev-workspace.git
+[submodule "discommand2"]
+	path = discommand2
+	url = git@github.com:discommand2/discommand2.git
+[submodule "brain-template"]
+	path = brain-template
+	url = git@github.com:discommand2/brain-template.git
+[submodule "core"]
+	path = core
+	url = git@github.com:discommand2/core.git
+[submodule "brain-adam"]
+	path = brain-adam
+	url = git@github.com:discommand2/brain-adam.git
+[submodule "provider-claude"]
+	path = provider-claude
+	url = git@github.com:discommand2/provider-claude.git
+[submodule "plugin-template"]
+	path = plugin-template
+	url = git@github.com:discommand2/plugin-template.git
+[submodule "plugin-iot"]
+	path = plugin-iot
+	url = git@github.com:discommand2/plugin-iot.git
+[submodule "plugin-python"]
+	path = plugin-python
+	url = git@github.com:discommand2/plugin-python.git
+[submodule "brain-lily"]
+	path = brain-lily
+	url = git@github.com:discommand2/brain-lily.git
+[submodule "brain-oliver"]
+	path = brain-oliver
+	url = git@github.com:discommand2/brain-oliver.git
+[submodule "brain-derek"]
+	path = brain-derek
+	url = git@github.com:discommand2/brain-derek.git
+[submodule "plugin-websocket"]
+	path = plugin-websocket
+	url = git@github.com:discommand2/plugin-websocket.git
+[submodule "plugin-email"]
+	path = plugin-email
+	url = git@github.com:discommand2/plugin-email.git
+[submodule "plugin-clickup"]
+	path = plugin-clickup
+	url = git@github.com:discommand2/plugin-clickup.git
+[submodule "plugin-http-api"]
+	path = plugin-http-api
+	url = git@github.com:discommand2/plugin-http-api.git
+[submodule "plugin-php"]
+	path = plugin-php
+	url = git@github.com:discommand2/plugin-php.git
+[submodule "plugin-filesystem"]
+	path = plugin-filesystem
+	url = git@github.com:discommand2/plugin-filesystem.git
+[submodule "plugin-sql"]
+	path = plugin-sql
+	url = git@github.com:discommand2/plugin-sql.git
+[submodule "plugin-bash"]
+	path = plugin-bash
+	url = git@github.com:discommand2/plugin-bash.git
+[submodule "plugin-rabbitmq"]
+	path = plugin-rabbitmq
+	url = git@github.com:discommand2/plugin-rabbitmq.git
+[submodule "plugin-browser"]
+	path = plugin-browser
+	url = git@github.com:discommand2/plugin-browser.git
+[submodule "plugin-webapp"]
+	path = plugin-webapp
+	url = git@github.com:discommand2/plugin-webapp.git
+[submodule "plugin-cli"]
+	path = plugin-cli
+	url = git@github.com:discommand2/plugin-cli.git
+[submodule "plugin-vision"]
+	path = plugin-vision
+	url = git@github.com:discommand2/plugin-vision.git
+[submodule "provider-openai"]
+	path = provider-openai
+	url = git@github.com:discommand2/provider-openai.git
+[submodule "provider-template"]
+	path = provider-template
+	url = git@github.com:discommand2/provider-template.git
