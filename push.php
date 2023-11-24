@@ -1,12 +1,20 @@
 #!/usr/bin/env php
 <?php
 
-$dir = __DIR__;
-chdir($dir);
-passthru("git submodule foreach --recursive git add -A");
-passthru("git submodule foreach --recursive 'git diff --cached --exit-code || git commit -m AutoSync'");
-passthru("git submodule foreach --recursive git push");
-passthru("git submodule foreach --recursive git pull");
-passthru("git add -A");
-passthru("git diff --cached --exit-code || git commit -m AutoSync");
-passthru("git push");
+function executeCommand($command) {
+    echo "Executing: $command\n";
+    passthru($command);
+}
+
+$commands = [
+    "git submodule foreach --recursive git pull origin main",
+    "git add .",
+    "git commit -m 'Update submodules'",
+    "git push origin main"
+];
+
+chdir(__DIR__);
+
+foreach ($commands as $command) {
+    executeCommand($command);
+}
