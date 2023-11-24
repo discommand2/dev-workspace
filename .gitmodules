@@ -70,3 +70,9 @@
 [submodule "brain-template"]
 	path = brain-template
 	url = git@github.com:discommand2/brain-template.git
+[submodule "discommand2"]
+	path = discommand2
+	url = git@github.com:discommand2/discommand2.git
+[submodule "brain-adam"]
+	path = brain-adam
+	url = git@github.com:discommand2/brain-adam.git
