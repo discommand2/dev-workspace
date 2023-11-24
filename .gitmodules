@@ -13,9 +13,6 @@
 [submodule "plugin-python"]
 	path = plugin-python
 	url = git@github.com:discommand2/plugin-python.git
-[submodule "brain-adam"]
-	path = brain-adam
-	url = git@github.com:discommand2/brain-adam.git
 [submodule "brain-lily"]
 	path = brain-lily
 	url = git@github.com:discommand2/brain-lily.git
