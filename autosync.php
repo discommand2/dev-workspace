@@ -12,7 +12,7 @@ $commands = [
     "git submodule foreach --recursive git push",
     "git submodule foreach --recursive git pull",
     "git add .",
-    "git diff --cached --exit-code || git commit -m 'Update submodules'",
+    "git diff --cached --exit-code || git commit -m AutoSync",
     "git push origin main"
 ];
 
