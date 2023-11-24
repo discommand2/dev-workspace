@@ -1,6 +1,3 @@
-[submodule "dev-workspace"]
-	path = dev-workspace
-	url = git@github.com:discommand2/dev-workspace.git
 [submodule "discommand2"]
 	path = discommand2
 	url = git@github.com:discommand2/discommand2.git
