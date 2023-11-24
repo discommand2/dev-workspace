@@ -1,6 +1,3 @@
-[submodule "discommand2"]
-	path = discommand2
-	url = git@github.com:discommand2/discommand2.git
 [submodule "core"]
 	path = core
 	url = git@github.com:discommand2/core.git
