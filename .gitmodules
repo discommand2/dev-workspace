@@ -1,15 +1,9 @@
 [submodule "discommand2"]
 	path = discommand2
 	url = git@github.com:discommand2/discommand2.git
-[submodule "brain-template"]
-	path = brain-template
-	url = git@github.com:discommand2/brain-template.git
 [submodule "core"]
 	path = core
 	url = git@github.com:discommand2/core.git
-[submodule "brain-adam"]
-	path = brain-adam
-	url = git@github.com:discommand2/brain-adam.git
 [submodule "provider-claude"]
 	path = provider-claude
 	url = git@github.com:discommand2/provider-claude.git
@@ -22,15 +16,6 @@
 [submodule "plugin-python"]
 	path = plugin-python
 	url = git@github.com:discommand2/plugin-python.git
-[submodule "brain-lily"]
-	path = brain-lily
-	url = git@github.com:discommand2/brain-lily.git
-[submodule "brain-oliver"]
-	path = brain-oliver
-	url = git@github.com:discommand2/brain-oliver.git
-[submodule "brain-derek"]
-	path = brain-derek
-	url = git@github.com:discommand2/brain-derek.git
 [submodule "plugin-websocket"]
 	path = plugin-websocket
 	url = git@github.com:discommand2/plugin-websocket.git
