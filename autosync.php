@@ -18,20 +18,6 @@ $commands = [
     "git submodule foreach --recursive git push"
 ];
 $commands2 = [
-    "git submodule foreach --recursive git fetch upstream",
-    "git submodule foreach --recursive git merge upstream/main",
-    "git submodule foreach --recursive composer update",
-    "git submodule foreach --recursive git add -A",
-    "git submodule foreach --recursive 'git diff --cached --exit-code || git commit -am AutoSync'",
-    "git submodule foreach --recursive git push"
-];
-$commands3 = [
-    "git submodule foreach --recursive git fetch upstream",
-    "git submodule foreach --recursive git merge upstream/main",
-    "git submodule foreach --recursive composer upgrade",
-    "git submodule foreach --recursive git add -A",
-    "git submodule foreach --recursive 'git diff --cached --exit-code || git commit -am AutoSync'",
-    "git submodule foreach --recursive git push",
     "composer upgrade",
     "git add -A",
     "git diff --cached --exit-code || git commit -am AutoSync",
@@ -46,12 +32,16 @@ foreach ($commands as $command) {
 
 sleep(5); // wait for composer packagist to update
 
-foreach ($commands2 as $command) {
+foreach ($commands as $command) {
     executeCommand($command);
 }
 
 sleep(5); // wait for composer packagist to update
 
-foreach ($commands3 as $command) {
+foreach ($commands as $command) {
+    executeCommand($command);
+}
+
+foreach ($commands2 as $command) {
     executeCommand($command);
 }
