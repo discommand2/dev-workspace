@@ -3,7 +3,8 @@
 
 // rpurinton 2023, just a simple script to automate the git submodule foreach commands
 
-function executeCommand($command) {
+function executeCommand($command)
+{
     echo "Executing: $command\n";
     passthru($command);
 }
@@ -13,11 +14,11 @@ $commands = [
     "git submodule foreach --recursive git merge upstream/main",
     "git submodule foreach --recursive composer update",
     "git submodule foreach --recursive git add -A",
-    "git submodule foreach --recursive 'git diff --cached --exit-code || git commit -m AutoSync'",
+    "git submodule foreach --recursive 'git diff --cached --exit-code || git commit -am AutoSync'",
     "git submodule foreach --recursive git push",
     "git submodule foreach --recursive git pull",
     "git add -A",
-    "git diff --cached --exit-code || git commit -m AutoSync",
+    "git diff --cached --exit-code || git commit -am AutoSync",
     "git push origin main"
 ];
 

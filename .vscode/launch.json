@@ -20,6 +20,22 @@
                 "XDEBUG_CONFIG": "client_port=${port}"
             },
             "stopOnEntry": true
+        },
+        {
+            "name": "Launch without arguments",
+            "type": "php",
+            "request": "launch",
+            "program": "${workspaceFolder}/discommand2/discommand2",
+            "cwd": "${workspaceFolder}/discommand2",
+            "port": 9003, // Xdebug 3 uses port 9003 by default
+            "runtimeArgs": [
+                "-dxdebug.start_with_request=yes"
+            ],
+            "env": {
+                "XDEBUG_MODE": "debug,develop",
+                "XDEBUG_CONFIG": "client_port=${port}"
+            },
+            "stopOnEntry": true
         }
     ]
 }
