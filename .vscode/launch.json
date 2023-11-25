@@ -5,10 +5,9 @@
             "name": "Launch testBrain",
             "type": "php",
             "request": "launch",
-            "program": "${workspaceFolder}/discommand2/discommand2",
+            "program": "${workspaceFolder}/discommand2/skull",
             "args": [
-                "start",
-                "testBrain"
+                "start"
             ],
             "cwd": "${workspaceFolder}/discommand2",
             "port": 9003, // Xdebug 3 uses port 9003 by default
@@ -19,13 +18,13 @@
                 "XDEBUG_MODE": "debug,develop",
                 "XDEBUG_CONFIG": "client_port=${port}"
             },
-            "stopOnEntry": true
+            "stopOnEntry": false
         },
         {
             "name": "Launch without arguments",
             "type": "php",
             "request": "launch",
-            "program": "${workspaceFolder}/discommand2/discommand2",
+            "program": "${workspaceFolder}/discommand2/skull",
             "cwd": "${workspaceFolder}/discommand2",
             "port": 9003, // Xdebug 3 uses port 9003 by default
             "runtimeArgs": [
@@ -35,7 +34,7 @@
                 "XDEBUG_MODE": "debug,develop",
                 "XDEBUG_CONFIG": "client_port=${port}"
             },
-            "stopOnEntry": true
+            "stopOnEntry": false
         }
     ]
 }
