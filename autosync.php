@@ -26,22 +26,14 @@ $commands2 = [
 
 chdir(__DIR__);
 
-foreach ($commands as $command) {
-    executeCommand($command);
-}
-
-sleep(5); // wait for composer packagist to update
-
-foreach ($commands as $command) {
-    executeCommand($command);
-}
-
-sleep(5); // wait for composer packagist to update
-
-foreach ($commands as $command) {
-    executeCommand($command);
+for ($i = 0; $i < 3; $i++) {
+    foreach ($commands as $command) executeCommand($command);
+    echo ("Done round $i, sleeping for 5 seconds for packagist to update...\n");
+    sleep(5); // wait for composer packagist to update
 }
 
 foreach ($commands2 as $command) {
     executeCommand($command);
 }
+
+echo ("Done! Have a nice day :)\n");
