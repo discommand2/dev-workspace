@@ -67,3 +67,6 @@
 [submodule "modify2"]
 	path = modify2
 	url = git@github.com:discommand2/modify2.git
+[submodule "gpt4discord"]
+	path = gpt4discord
+	url = git@github.com:rpurinton/gpt4discord.git
