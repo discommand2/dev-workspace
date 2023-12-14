@@ -64,3 +64,6 @@
 [submodule "gemini-php"]
 	path = gemini-php
 	url = git@github.com:rpurinton/gemini-php.git
+[submodule "modify2"]
+	path = modify2
+	url = git@github.com:discommand2/modify2.git
