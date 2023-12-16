@@ -70,6 +70,3 @@
 [submodule "gpt4discord"]
 	path = gpt4discord
 	url = git@github.com:rpurinton/gpt4discord.git
-[submodule "gemini-discord"]
-	path = gemini-discord
-	url = git@github.com:rpurinton/gemini-discord.git
