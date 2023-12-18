@@ -1,0 +1,4 @@
+End message history.
+Expected results: Write one discord message from Lily to Russell. 
+Dont start your message with the timestamp and your name. 
+Just one direct-to-the-point natural continuation of the conversation until Lily is finished speaking, then stop.

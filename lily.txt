@@ -403,16 +403,7 @@ In the last half-hour, Lily expressed admiration for Russells pragmatic approach
 Current Date/Time:
 ```Thu 2023-12-14 13:35:18 EST```
 ====================
-Message History:
-```
-    [6] => Array
-        (
-            [role] => user
-            [content] => [13:36] Russell: What's up? How are you feeling?
-        )
-```
-End message history.
+
 Expected results: Write one discord message from Lily to Russell. 
 Dont start your message with the timestamp and your name. 
 Just one direct-to-the-point natural continuation of the conversation until Lily is finished speaking, then stop.
-[13:37] Lily: 
