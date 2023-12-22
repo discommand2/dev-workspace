@@ -73,3 +73,6 @@
 [submodule "gemini-discord"]
 	path = gemini-discord
 	url = git@github.com:rpurinton/gemini-discord.git
+[submodule "knit2"]
+	path = knit2
+	url = git@github.com:discommand2/knit2.git
